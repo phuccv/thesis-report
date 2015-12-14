@@ -1,0 +1,251 @@
+\chapter{Áp dụng thư viện JOpenCBLS vào bài toán BP2D}
+\label{chap:implement}
+Trong chương này tôi sẽ trình bày cách cài đặt thuật toán tìm kiếm cục bộ dựa trên ràng buộc vào bài toán đóng thùng 2d đã được trình bày ở chương \ref{chap:binPacking}.
+
+%-----------------------------------------------------------------------
+\section{Các chức năng cài đặt thêm}
+Để cài đặt với mô hình mở rộng của bài toán đóng thùng 2D đã trình bày ở mục trước, chúng tôi đề xuất cài đặt thêm một số lớp có các chức năng sau:
+\subsection{Phép chia nguyên (Function)}
+Phép chia nguyên là phép toán được định nghĩa trên vành số nguyên, nó bao gồm hai toán tử là toán tử chia và toán tử bị chia. Trong bài toán BP2D tôi chỉ thao tác chính trên số nguyên nên việc sử dụng thêm phép chia nguyên là cần thiết. Cụ thể trong BP2D để gắn liền tọa độ theo phương $x$ và theo phương $y$ của vật phẩm tôi sử dụng một biến trong mô hình lưu giữ một đại lượng 
+\[ posCombine_i = x_i \times W + y_i \quad 1 \leq i \leq N \]
+Nó cho phép chúng ta có thêm nhiều láng giềng hơn trong quá trình duyệt tìm kiếm. Việc lấy giá trị tọa độ $y_i$ được thực hiện đơn giản bằng một phép chia nguyên.
+
+Phép chia nguyên được cài đặt bởi lớp \textsf{Devide} là một định nghĩa hàm, nó nhận khởi tạo là một biến và một số nguyên cố định. Giá trị của hàm này chỉ phụ thuộc vào giá trị của biến tham số truyền vào hàm khởi tạo.
+\begin{lstlisting}
+	// Divide.java
+	...
+	public Divide(VarIntLS var, int mod) {
+		this.variable = var;
+		this.mod = mod;
+		
+		this.manager = var.getLocalSearchManager();
+		
+		manager.post(this);
+	}
+	...
+\end{lstlisting}
+trong đó:
+\begin{itemize}
+	\item \textit{var} là tham chiếu đến đối tượng \textsf{VarIntLS} chứa giá trị bị chia.
+	\item \textit{mod} là số nguyên chứa giá trị số chia.
+\end{itemize}
+\subsection{Phép lấy phần dư (Function)}
+Bên cạnh phép chia nguyên là phép lấy phần dư (module) cũng được định nghĩa trên vành số nguyên gồm hai toán tử là toán tử lấy mô-đun và toán tử mô-đun. Trong BP2D tôi sử dụng toán tử này để lấy lại giá trị tọa độ $x_i$ của vật phẩm trong túi từ đại lượng $posCombine_i$.
+
+Phép lấy phần dư được cài đặt bởi lớp \textsf{Module} là một định nghĩa hàm, nhận khởi tạo là một biến và một số nguyên cố định, giá trị của hàm này là kết quả phép chia lấy phần dư của giá trị biến truyền vào và số nguyên đó.
+
+\begin{lstlisting}
+	// Module.java
+	...
+	public Module(VarIntLS var, int mod) {
+		this.variable = var;
+		this.mod = mod;
+		
+		this.manager = var.getLocalSearchManager();
+		manager.post(this);
+	}
+	
+	...
+\end{lstlisting}
+trong đó:
+\begin{itemize}
+	\item \textit{var} là tham chiếu đến đối tượng \textsf{VarIntLS} chứa giá trị lấy phần dư.
+	\item \textit{mod} là số nguyên chứa giá trị số chia.
+\end{itemize}
+\subsection{Các lớp có chức năng tìm kiếm}
+Ngoài các lớp có sẵn trong thư viện JOpenCBLS tôi có cài đặt thử nghiệm thêm các lớp thực hiện các phương thức tìm kiếm khác nhau nhằm phù hợp hơn với mô hình và kiến trúc của ứng dụng.
+\subsubsection{Tabu Search}
+Tabu search là một kỹ thuật sử dụng phổ biến và rất hiệu quả trong các bài toán tìm kiếm cục bộ, ở đây tôi cài đặt các lớp thực hiện các công việc tìm kiếm \textit{tabu} trong các mô hình của JOpenCBLS. Các lớp tìm kiếm này sẽ cài đặt một \textit{interface} là \textsf{SearchMethod} chứa các phương thức điều khiển:
+\begin{itemize}
+	\item \textit{run()} sẽ bắt đầu quá trình tìm kiếm.
+	\item \textit{stop()} sẽ kết thúc tiến trình tìm kiếm hiện tại.
+\end{itemize}
+Khi bắt đầu một tiến trình tìm kiếm thông thường các lớp sẽ gọi phương thức tìm kiếm tương ứng của mình đã được cài đặt:
+\begin{itemize}
+	\item \textsf{SearchTabuAssign} là lớp cài đặt phương thức tìm kiếm tabu bằng cách xem xét láng giềng là các bộ tổ hợp mới có được từ bộ tổ hợp cũ bằng cách thay đổi duy nhất một thành phần trong nó. Đối tượng của lớp này sẽ thực hiện tìm kiếm trong phương thức \textit{searchAssign()}.
+	\item \textsf{SearchTabuSwap} là lớp cài đặt phương thức tìm kiếm tabu bằng cách xem xét láng giềng là các bộ tổ hợp mới có được bằng cách tráo đổi giá trị của đúng 2 thành phần trong bộ tổ hợp cũ. Đối tượng của lớp này sẽ thực hiện tìm kiếm trong phương thức \textit{searchSwap()}.
+	\item \textsf{SearchTabuMixAssignSwap} là lớp cài đặt phương thức tìm kiếm tabu bằng cách xem xét láng giềng là hợp của các láng giềng trong tìm kiếm với \textsf{SearchTabuAssign} và \textsf{SearchTabuSwap}. Đối tượng của lớp này sẽ thực hiện tìm kiếm trong phương thức \textit{searchMix()}.
+\end{itemize}
+
+Mỗi lớp tìm kiếm này có thể chạy độc lập trong môi trường đa luồng, chúng ta có thể khởi tạo nó bằng một luồng mới và thực thi công việc tìm kiếm độc lập, việc này giúp cho phần ứng dụng trở nên thông suốt hơn. Các tiến trình mới này có thể bị hủy trước khi hoàn thành công việc tìm kiếm nếu như chúng ta gọi thủ tục kết thúc (\textit{stop()}) từ một tiến trình khác.
+
+\subsubsection{Random Search}
+Lớp \textsf{RandomSearch} là một lớp có chức năng tìm kiếm với phương thức tìm kiếm ngẫu nhiên, lớp này cài đặt với mục đích thử nghiệm.
+%-----------------------------------------------------------------------
+\section{Dữ liệu và mô hình hóa}
+Mô hình của bài toán được đặt hoàn toàn trong lớp \textsf{BpModelCombine}, nó kế thừa một \textit{interface} là \textsf{SearchModel}, cài đặt \textit{interface} này cho phép các phương thức tìm kiếm ở trên có thể sử dụng model này trong quá trình tìm kiếm, tạo sự độc lập giữa cài đặt phương thức tìm kiếm và cài đặt mô hình.
+
+\subsection{Dữ liệu}
+Trong lớp \textsf{BpModelCombine} bao gồm:
+\begin{itemize}
+	\item \textbf{Các thuộc tính}
+	\begin{lstlisting}
+		//BpModelCombine.java
+		private LocalSearchManager manager;
+		private ConstraintSystem cs;
+	
+		private SearchEventPool pool;
+	
+		private BpData data;
+		private int itemCount;
+		private int binWidth;
+		private int binHeight;
+		private int[] itemWidths;
+		private int[] itemHeights;
+	
+	\end{lstlisting}
+
+	Có tác dụng như sau:
+	\begin{itemize}
+		\item \textit{manager} là đối tượng quản lý toàn bộ mô hình.
+		\item \textit{cs} là đối tượng quản lý hệ thống ràng buộc.
+		\item \textit{pool} là đối tượng giữ lại các mốc trong quá trình tìm kiếm.
+		\item \textit{data} là đối tượng chịu trách nhiệm đọc dữ liệu từ tệp tin và trích xuất ra các thông tin cần thiết.
+		\item \textit{itemCount} là số lượng vật phẩm ($N$).
+		\item \textit{binWidth} là chiều rộng của thùng ($W$).
+		\item \textit{binHeight} là chiều cao của thùng ($H$).
+		\item \textit{itemWidths} là mảng lưu trữ chiều rộng của các vật phẩm: $[w_1,\dotsc,w_N]$.
+		\item \textit{itemHeights} là mảng lưu trữ chiều cao của các vật phẩm: $[h_1,\dotsc,h_N]$.
+	\end{itemize}
+
+	\item \textbf{Biến mô hình}
+	\begin{lstlisting}
+		//BpModelCombine.java
+	
+		private VarIntLS[] combinedPos;
+		private VarIntLS[] rotated;
+		
+	\end{lstlisting}
+	có tác dụng:
+	\begin{itemize}
+		\item \textit{combinedPos} là đối tượng lưu giữ giá trị thể hiện vị trí của vật phẩm trong thùng như đã trình bày ở mục trước: \[combinedPos[i] = Y_i \times W + X_i \quad \text{với } 1 \leq i \leq N\]
+		\item \textit{rotated} là đối tượng lưu giữ trạng thái hiện thời của vật phẩm: được xoay hay không được xoay.
+		\[		
+		\begin{cases}
+			rotated[i] = 1 \quad \text{nếu vật thứ $i$ đã được xoay} \\
+			rotated[i] = 0 \quad \text{nếu vật thứ $i$ không được xoay}
+		\end{cases}
+		\]
+	\end{itemize}
+\end{itemize}
+
+\subsection{Mô hình}
+\subsubsection{Khai báo và cấp phát bộ nhớ}
+	Các thao tác khai báo và cấp phát bộ nhớ được thực hiện trong phạm vi của thủ tục:
+	\begin{lstlisting}
+		//BpModelCombine.java
+		...
+		private void allocateVariable(){
+			final int COMBINE_MAX = (binWidth - 1) * binHeight;
+			combinedPos = new VarIntLS[itemCount];
+			rotated = new VarIntLS[itemCount];
+			for(int i = 0; i< itemCount; i++){
+				combinedPos[i] = new VarIntLS(manager, 0, COMBINE_MAX - 1);
+				rotated[i] = new VarIntLS(manager, 0, 1);
+			}
+		}
+		...
+	\end{lstlisting}
+	bao gồm:
+	\begin{itemize}
+		\item khai báo và khởi tạo giá trị cho các phần tử của mảng $combinedPos$,
+		\item khai báo và khởi tạo giá trị cho các phần tử của mảng $rotated$.
+	\end{itemize}
+
+\subsubsection{Tải các ràng buộc}
+	Thao tác khai báo các ràng buộc được thực hiện trong thủ tục \textit{loadConstraints()}:
+	\begin{itemize}
+		\item Tính toán vị trí tọa độ $x, y$:
+		\begin{lstlisting}
+		
+		// Calculate x position and y position of all items
+		IFunction[] left = new IFunction[itemCount];
+		IFunction[] top = new IFunction[itemCount];
+		for(int i = 0; i< itemCount; i++){
+			left[i] = new Module(combinedPos[i], binWidth);
+			top[i] = new Divide(combinedPos[i], binWidth);
+		}
+		
+		\end{lstlisting}
+		\item Tính toán tọa độ biên của các hộp trong thùng:
+		
+		\begin{lstlisting}
+		
+		// Calculate bound of all item
+		IFunction[] right = new IFunction[itemCount];
+		IFunction[] bottom = new IFunction[itemCount];
+		IFunction[] rightRot = new IFunction[itemCount];
+		IFunction[] bottomRot = new IFunction[itemCount];
+		for(int i = 0; i< itemCount; i++){
+			right[i] = new FuncPlus(left[i], itemWidths[i]);
+			bottom[i] = new FuncPlus(top[i], itemHeights[i]);
+			rightRot[i] = new FuncPlus(left[i], itemHeights[i]);
+			bottomRot[i] = new FuncPlus(top[i], itemWidths[i]);
+		}
+		\end{lstlisting}
+		\item Tải ràng buộc không chồng lấn giữa các vật:
+		\begin{lstlisting}
+		
+		// All items must not overlap
+		for(int i = 0; i< itemCount; i++){
+			for(int j = i + 1; j< itemCount; j++){
+				IConstraint[] allCase = new IConstraint[4];
+				// Case 0 item 1 NOT rotated, item 2 NOT rotated
+				IConstraint[] tmp = new IConstraint[4];
+				tmp[0] = new LessOrEqual(right[i], left[j]);
+				tmp[1] = new LessOrEqual(right[j], left[i]);
+				tmp[2] = new LessOrEqual(bottom[i], top[j]);
+				tmp[3] = new LessOrEqual(bottom[j], top[i]);
+				IConstraint[] tmpCase = new IConstraint[3];
+				tmpCase[0] = new OR(tmp);
+				tmpCase[1] = new IsEqual(rotated[i], 0);
+				tmpCase[2] = new IsEqual(rotated[j], 0);
+				allCase[0] = new AND(tmpCase);
+				// Case 1 item 1 NOT rotated, item 2 rotated
+				...
+				allCase[1] = new AND(tmpCase);
+				// Case 2 item 1 rotated, item 2 NOT rotated
+				...
+				allCase[2] = new AND(tmpCase);
+				// Case 3 item 1 rotated, item 2 rotated
+				tmp = new IConstraint[4];
+				...
+				allCase[3] = new AND(tmpCase);
+				
+				// Combine all case
+				cs.post(new OR(allCase));
+			}
+		}
+		
+		\end{lstlisting}
+		
+		\item Tải ràng buộc vật phẩm không vượt quá phạm vi của thùng:
+		\begin{lstlisting}
+		
+		// All items must be not overlap with bin-bound
+		for(int i = 0; i< itemCount; i++){
+			IConstraint[] allCase = new IConstraint[2];
+			// Case 0 : item NOT rotated
+			IConstraint[] tmp = new IConstraint[3];
+			tmp[0] = new LessOrEqual(right[i], binWidth);
+			tmp[1] = new LessOrEqual(bottom[i], binHeight);
+			tmp[2] = new IsEqual(rotated[i], 0);
+			allCase[0] = new AND(tmp);
+			// Case 1 : item rotated
+			tmp = new IConstraint[3];
+			tmp[0] = new LessOrEqual(rightRot[i], binWidth);
+			tmp[1] = new LessOrEqual(bottomRot[i], binHeight);
+			tmp[2] = new IsEqual(rotated[i], 1);
+			allCase[1] = new AND(tmp);
+			
+			// Combine all case
+			cs.post(new OR(allCase));
+		}
+		
+		\end{lstlisting}
+		
+	\end{itemize}
+	
+\subsubsection{Thực hiện tìm kiếm}
+Chúng ta sẽ thực hiện tìm kiếm cục bộ bằng cách: sử dụng một đối tượng tìm kiếm (\textsf{SearchTabuSwap}, \textsf{RandomSearch},$\dots$) khởi tạo với mô hình vừa được khai báo gọi thủ tục \textit{run()}.
+

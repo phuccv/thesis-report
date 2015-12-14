@@ -1,0 +1,17 @@
+\chapter*{Tóm tắt nột dung}%
+\addcontentsline{toc}{chapter}{\numberline{}Tóm tắt nội dung}%
+Quản lý file là một chức năng của hầu hết các hệ điều hành hiện nay. Tuy nhiên
+hiện nay có nhiều hệ thống file (filesystem) khác nhau, mỗi hệ thống file có
+những cách đọc, ghi dữ liệu khác nhau. Có những hệ thống file dành cho các
+thiết bị lưu trữ vật lý, nhưng cũng có những hệ thống file dành riêng cho việc
+chia sẻ qua mạng hay là lưu trữ trên bộ nhớ RAM.
+
+Phần đầu bài báo cáo này tìm hiệu về hệ thống file ảo (VFS) trên Linux, một thành phần
+của nhân Linux đóng vai trò là giao diện thống nhất tất cả các hệ thống file,
+làm cho việc quản lý file trên Linux trở nên đơn giản hơn.
+
+Phần hai của bài báo cáo tìm hiểu về bộ nhớ flash và hệ thống file F2FS dành
+cho bộ nhớ flash. Cũng như nhiều hệ thống file khác trên Linux, cài đặt của
+F2FS cũng sử dụng giao diện cung cấp bởi VFS. Qua việc tìm hiểu F2FS, ta sẽ
+thấy quản lý file không phải chỉ cần quan tâm đến mức phần mềm mà còn phải biết tận dụng
+các ưu điểm và khắc phục các nhược điểm của thiết bị lưu trữ phần cứng.

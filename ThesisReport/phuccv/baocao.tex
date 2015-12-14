@@ -1,0 +1,399 @@
+\documentclass[a4paper,12pt,hyphens,oneside]{report}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage[unicode,linktocpage]{hyperref}
+\usepackage{tocbibind}
+\usepackage[toc,titletoc]{appendix}
+\hypersetup{backref,colorlinks=true, urlcolor=green, linkcolor=black, unicode=true}
+\hypersetup
+{
+    pdfauthor={Cao Văn Phúc},
+    pdftitle={Tìm hiểu giải thuật tìm kiếm cục bộ dựa trên ràng buộc và cài đặt
+bài toán đóng thùng 2D sử dụng thư viện JOpenCBLS}
+}
+
+\usepackage{ifluatex}
+
+\ifluatex % LuaTeX
+  \usepackage{luatextra}
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX}
+  % load your system fonts; e.g.:
+ \setmainfont{Times New Roman}
+  %\setmainfont{LinLibertineO}
+  %\setsansfont{LinBiolinumO}
+  %\setmonofont{Inconsolata}
+  \usepackage{polyglossia}
+  \setdefaultlanguage{vietnamese}
+
+  \newfontfamily\arial{Arial}
+\else % pdfTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[utf8]{vietnam}
+  %\usepackage[T1]{fontenc}
+  % load some Type 1 font; e.g.:
+  \usepackage[fulloldstylenums,largesmallcaps]{kpfonts}
+\fi
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{latexsym, amsfonts, amssymb, amsmath, amsthm}
+%\usepackage{enumitem}
+\usepackage{cases}
+\usepackage{empheq}
+\usepackage[left=3.5cm,right=2.0cm,top=2.0cm,bottom=2.0cm,includefoot,includehead,heightrounded]{geometry}
+\usepackage{fancybox}
+\usepackage{titlesec}
+\usepackage{listings}
+\usepackage{frame}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+\usepackage[xindy,toc]{glossaries}
+\usepackage{tabu}
+\usepackage{linegoal}
+%\usepackage{natbib}
+\usepackage{array}
+\usepackage{indentfirst}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{listings}
+
+%%%%%%%%%%%%%%% Listings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lstset{inputencoding=utf8,extendedchars=true,language=java}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstdefinelanguage{json}{
+    basicstyle=\normalfont\ttfamily,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{background},
+    literate=
+     *{0}{{{\color{numb}0}}}{1}
+      {1}{{{\color{numb}1}}}{1}
+      {2}{{{\color{numb}2}}}{1}
+      {3}{{{\color{numb}3}}}{1}
+      {4}{{{\color{numb}4}}}{1}
+      {5}{{{\color{numb}5}}}{1}
+      {6}{{{\color{numb}6}}}{1}
+      {7}{{{\color{numb}7}}}{1}
+      {8}{{{\color{numb}8}}}{1}
+      {9}{{{\color{numb}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1},
+}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4
+}
+%%%%%%%%%%%%%%% BibTex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\makeatletter
+%\newrobustcmd*{\mkbibitalic}{\textit}
+%\protected\long\def\blx@imc@mkbibemph#1{%
+%  \textit{#1}\blx@imc@setpunctfont\textit}
+%\makeatother
+%
+%\let\mkbibemph\mkbibitalic
+
+%%%%%%%%%%%%% Glossaries %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeglossaries
+
+%\usepackage{setspace}
+%\onehalfspace
+
+%%%%%%%%%% THEOREM %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+%\newenvironment{proof}[1][Proof]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{definition}[1][Định nghĩa]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+%\newcommand{\qed}{\nobreak \ifvmode \relax \else
+%      \ifdim\lastskip<1.5em \hskip-\lastskip
+%      \hskip1.5em plus0em minus0.5em \fi \nobreak
+%      \vrule height0.75em width0.5em depth0.25em\fi}
+
+%%%%%%%%%% TIKZ settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+%\usepackage{unicode-math}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{calc}
+
+\pgfplotsset{compat=1.12}
+
+\usetikzlibrary{arrows,shapes,calc}
+\usetikzlibrary{patterns}
+
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=10pt,inner sep=0pt]
+\tikzstyle{selected vertex} = [vertex, fill=red!24]
+\tikzstyle{next vertex} = [vertex, fill=yellow!24]
+\tikzstyle{edge} = [draw,thick,-]
+\tikzstyle{weight} = [font=\small]
+\tikzstyle{selected edge} = [draw,line width=5pt,dotted,red!50]
+\tikzstyle{new edge} = [draw,line width=3pt,-,green!50]
+\tikzstyle{ignored edge} = [draw,line width=5pt,-,black!20]
+
+\tikzstyle{redcell}=[rectangle,pattern=north west lines,pattern color=red,fill opacity=0.1]
+\tikzstyle{blackcell}=[rectangle,pattern=dots,pattern color=black,fill opacity=0.3]
+\tikzstyle{celllabel}=[midway,opacity=1,font=\normalsize]
+\tikzstyle{edgelabel}=[midway,opacity=1,fill=white,font=\normalsize]
+
+% Declare layers
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+% caption source
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{%
+    #1%
+    \\\hspace{\linewidth}%
+    \textbf{Nguồn:} #2%
+  }%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% vietnamese names
+%\def\captionsvietnamese{%
+%\def\listtablename{Danh sách bảng}%
+%}%
+\addto\captionsvietnamese{%
+  \renewcommand{\listtablename}{Danh sách bảng}%
+  \renewcommand{\listfigurename}{Danh sách hình ảnh}%
+  \renewcommand{\contentsname}{Mục lục}%
+  \renewcommand{\tablename}{Bảng}%
+  \renewcommand{\glossaryname}{Danh sách thuật ngữ và từ viết tắt}%
+  \renewcommand{\appendixtocname}{Phụ lục}%
+  \renewcommand{\appendixpagename}{Phụ lục}%
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% section depth
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+\setlength{\headheight}{27pt}
+
+\newcommand{\credit}[1]{
+\\
+\hspace*{15pt}
+\hbox{\scriptsize Credit:\thinspace{\small\itshape \scriptsize #1}}}
+
+
+    \makeatletter
+    % avoid the redefinition of `\thepart`
+    \patchcmd{\captionsfrench}{\def\thepart{}}{}{}{}
+    % patch \@part not to print the part number
+    \patchcmd{\@part}{\nobreakspace\thepart}{}{}{}
+    \makeatother
+
+% line spacing
+\linespread{1.2}
+
+% footnote
+\makeatletter
+\newcommand \Dotfill {\leavevmode \cleaders \hb@xt@ .2em{\hss .\hss }\hfill \kern \z@}
+%\renewcommand{\chaptermark}[1]{%
+%    \markboth{\@chapapp\ \thechapter.\ #1}{}
+%}%
+
+
+\makeatother
+\fancypagestyle{plain}{
+    \fancyfoot{} % clear all footer fields
+    \renewcommand{\headrulewidth}{0.1pt}
+    \renewcommand{\footrule}{\vbox to 0pt{\hbox to\headwidth{\Dotfill}\vss}}
+    \renewcommand{\headrule}{\vbox to 0pt{\hbox to\headwidth{\Dotfill}\vss}}
+    \renewcommand{\footrulewidth}{0.1pt}
+    \fancyfoot[R]{\thepage}           % page number in "outer" position of footer line
+    \fancyfoot[L]{\textit{\footnotesize Sinh viên thực hiện: Cao Văn Phúc - 20102715 Khóa K55 Lớp CNTT4}} % other info in "inner" position of footer line
+
+    \rhead{\leftmark}
+    \lhead{\rightmark}
+}%
+\fancypagestyle{title}
+{
+    \fancyhf{}
+    \renewcommand\headrulewidth{0pt}
+    \renewcommand\footrulewidth{0.1pt}
+    \renewcommand{\footrule}{\vbox to 0pt{\hbox to\headwidth{\Dotfill}\vss}}
+    \fancyfoot[L]{\textit{\footnotesize Sinh viên thực hiện: Cao Văn Phúc - 20102715 Khóa K55 Lớp CNTT4}} % other info in "inner" position of footer line
+}
+
+%%%%%%%% TABLES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+%%%%%%%% Grouping figure/table %%%%%%%%%%%%%%%%%
+\usepackage{etoolbox}
+\makeatletter
+\def\thischaptertitle{}
+\apptocmd{\@chapter}{\gdef\thischaptertitle{#1}}{}{}
+
+\newcommand{\DeclareDividedList}[1]%
+  {\newcounter{#1@chapter}\setcounter{#1@chapter}{0}}
+
+\pretocmd{\addcontentsline}%
+  {\ifltxcounter{#1@chapter}%
+   {%
+     \ifnumgreater{\thechapter}{\value{#1@chapter}}{%
+       \setcounter{#1@chapter}{\thechapter}%
+       \addtocontents{#1}{\protect\contentsline{chapter}%
+         {\protect\numberline {\thechapter} {\thischaptertitle}}{}{} }
+     }{}%
+   }{}%
+  }{}{}
+\makeatother
+\DeclareDividedList{lof}
+%\DeclareDividedList{lot}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+    \title{\color{red} Giải thuật tìm kiếm cục bộ dựa trên ràng buộc giải bài toán đóng thùng 2D}
+    \author{\color{blue}Cao Văn Phúc}
+    \date{\color{green}\today}
+	\nocite{*}	
+	
+    \begin{titlepage}
+        \thispagestyle{empty}
+        \newgeometry{left=3.7cm,bottom=2.1cm,right=2.2cm,top=2cm,includefoot}
+        \begin{tikzpicture}[remember picture, overlay]
+          \draw[line width = 0.5pt] ($(current page.north west) + (3.5cm,-2cm)$) rectangle ($(current page.south east) + (-2cm,2cm)$);
+        \end{tikzpicture}
+
+        \begin{center}
+            {\fontsize{16}{1.2}\selectfont TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI\\
+            VIỆN CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG}
+        \textbf{--------------------  *  ---------------------}\\[3.8cm]
+        %\includegraphics[width=3cm, height=4.2cm]{figures/logo}\\[1cm]
+        {\fontsize{32pt}{1}\selectfont ĐỒ ÁN}\\
+        {\fontsize{38pt}{1}\selectfont \textbf{TỐT NGHIỆP ĐẠI HỌC}}\\[0.8cm]
+        {\fontsize{20pt}{1}\selectfont NGÀNH CÔNG NGHỆ THÔNG TIN}\\[3.0cm]
+        {\fontsize{22pt}{1}\selectfont Giải thuật tìm kiếm cục bộ dựa trên ràng buộc\\
+         giải bài toán đóng thùng 2D
+        }\\[2.8cm]
+        \end{center}
+
+        {\fontsize{14pt}{1}\selectfont
+            \hspace*{4.5cm} Sinh viên thực hiện: \hspace{4pt} \textbf{\parbox[t]{5cm}{
+                     Cao Văn Phúc\\
+                     Lớp CNTT4 - K55}
+            }\\[12pt]
+        }
+        {\fontsize{14pt}{1}\selectfont
+            \hspace*{4.5cm} Giảng viên hướng dẫn:  \hspace{4pt} \textbf{\parbox[t]{5cm}{
+                    TS. Phạm Quang Dũng\\}
+            }
+        }
+
+        \vspace{3.5cm}
+        \begin{center}
+        {\fontsize{16pt}{1}\selectfont HÀ NỘI \luaexec{tex.print(os.date("\%m - \%Y"))}}\\
+        \end{center}
+    \end{titlepage}
+
+    \restoregeometry
+    \newpage
+    %\pagenumbering{Alph}
+
+    \pagestyle{title}
+    \include{chapters/PhieuGiaoNhiemVu}
+    %\newpage
+
+    \fontsize{13}{15.6}
+    \selectfont
+
+    \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+    \renewcommand{\sectionmark}[1]{\markright{#1}{}}
+    \renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}}
+
+    \rhead{\leftmark}
+    \lhead{\rightmark}
+
+    \pagestyle{plain}
+    %\pagenumbering{Alph}
+    \input{glossaries}
+
+    \include{chapters/Intro}
+
+    \tableofcontents
+
+    %\pagenumbering{arabic}
+
+    \glsaddall
+    \setglossarystyle{list}
+    \printglossaries
+
+    \listoffigures
+    \listoftables
+
+    %\hypersetup{linkcolor=blue}
+
+
+    \renewcommand{\thefootnote}{\arabic{footnote}}
+
+    \include{chapters/abbr}
+    %\include{chapters/Abstract}
+    \include{chapters/Chapter1}
+    \include{chapters/Chapter2}
+    \include{chapters/Chapter3}
+    \include{chapters/Chapter4}
+    %\include{chapters/Chapter5}
+
+    \include{chapters/Conclusion}
+
+    %\appendix
+    \begin{appendices}
+        \include{chapters/Appendix1}
+        %\include{chapters/Appendix2}
+        %\include{chapters/Appendix3}
+    \end{appendices}
+
+%======================REFERENCE================================
+\bibliographystyle{plain}
+\bibliography{reference}
+
+%==================================finish=========================
+
+\end{document}

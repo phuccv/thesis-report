@@ -1,0 +1,1650 @@
+This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2015.9.15)  17 SEP 2015 03:05
+**Chapter1.tex
+(C:/Users/phuc/Desktop/DATN/phuccv/chapters/Chapter1.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ara
+bic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, cr
+oatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, 
+indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian, lith
+uanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, ru
+ssian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerman, tami
+l, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+! Undefined control sequence.
+l.1 \chapter
+          {Tối Ưu Tổ Hợp}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{T
+            ối Ưu Tổ Hợp}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.4 \section
+          {Tổ hợp và không gian tìm kiếm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--6
+[][]Tối
+ []
+
+! Undefined control sequence.
+l.8 \subsection
+             {Khái niệm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \subsection{K
+               hái niệm}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+[][]Khái
+ []
+
+! Undefined control sequence.
+l.10 \subsubsection
+                 {Tối ưu tổ hợp}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsubsection{T
+                   ối ưu tổ hợp}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
+[][]Tối
+ []
+
+! Undefined control sequence.
+l.12 \subsubsection
+                 {Bài toán thỏa mãn ràng buộc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \subsubsection{B
+                   ài toán thỏa mãn ràng buộc}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--13
+[][]Bài
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 B
+    ài toán thỏa mãn ràng buộc được xác định bởi bộ
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
+[][]Bài
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+
+Overfull \hbox (43.82216pt too wide) detected at line 17
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 X; D; C\OMS/cmsy/m/n/10 g
+ []
+
+
+! LaTeX Error: Environment description undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{description}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 	\item $
+           X = \{X_1,\dotsc, X_n\}$ \hspace{2px} là tập các biến.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.20 	\item $X = \{X_1,\dotsc
+                           , X_n\}$ \hspace{2px} là tập các biến.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.62494pt too wide) in paragraph at lines 20--21
+\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (45.38777pt too wide) in paragraph at lines 20--21
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 X[]; ; X[]\OMS/cmsy/m/n/10 g$
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 	\item $
+           D = \{D_1,\dotsc, D_n\}$ \vspace{2px} là tập miền xác đị...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.21 	\item $D = \{D_1,\dotsc
+                           , D_n\}$ \vspace{2px} là tập miền xác đị...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.11246pt too wide) in paragraph at lines 21--22
+\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (45.37663pt too wide) in paragraph at lines 21--22
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 D[]; ; D[]\OMS/cmsy/m/n/10 g$
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 	\item $
+           C = \{C_1,\dotsc, C_m\}$ \vspace{2px} là tập các ràng buộc.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.22 	\item $C = \{C_1,\dotsc
+                           , C_m\}$ \vspace{2px} là tập các ràng buộc.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \end{description}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (18.418pt too wide) in paragraph at lines 22--24
+\OML/cmm/m/it/10 C \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (45.26553pt too wide) in paragraph at lines 22--24
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 C[]; ; C[]\OMS/cmsy/m/n/10 g$
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 T
+    ập $S = \{t_1,\dotsc, t_n\}$ với phần tử $t_i$ là giá trị t�...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.25 Tập $S = \{t_1,\dotsc
+                          , t_n\}$ với phần tử $t_i$ là giá trị t�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
+[][]Tập
+ []
+
+
+Overfull \hbox (17.26382pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (36.04054pt too wide) in paragraph at lines 25--26
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t[]; ; t[]\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (6.9404pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 t[]$
+ []
+
+
+Overfull \hbox (11.61401pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 X[]$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 C$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 25--26
+\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (43.82216pt too wide) in paragraph at lines 25--26
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 X; D; C\OMS/cmsy/m/n/10 g$\nullfont . 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 T
+    rong nhiều bài toán còn xuất hiện thêm các mục tiêu tối ...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
+[][]Trong
+ []
+
+! Undefined control sequence.
+l.29 F = f(X_1,\dotsc
+                   , X_n)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (70.29048pt too wide) detected at line 30
+\OML/cmm/m/it/10 F \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 X[]; ; X[]\OT1/cmr/m/n/10 )
+ []
+
+
+Overfull \hbox (11.30554pt too wide) in paragraph at lines 30--32
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 30--32
+\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (7.81946pt too wide) in paragraph at lines 30--32
+\OML/cmm/m/it/10 F$
+ []
+
+
+Overfull \hbox (11.30554pt too wide) in paragraph at lines 30--32
+\OML/cmm/m/it/10 S[]$
+ []
+
+! Undefined control sequence.
+l.33 \subsubsection
+                 {Không gian tìm kiếm lời giải}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \subsubsection{K
+                   hông gian tìm kiếm lời giải}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--35
+[][]Không
+ []
+
+
+Overfull \hbox (16.8056pt too wide) in paragraph at lines 33--35
+\OT1/cmss/m/n/10 NP-
+ []
+
+
+Overfull \hbox (10.05559pt too wide) in paragraph at lines 33--35
+\OT1/cmss/m/n/10 khó
+ []
+
+! Undefined control sequence.
+l.37 \subsection
+              {Ví dụ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \subsection{V
+                í dụ}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
+[][]Ví
+ []
+
+! Undefined control sequence.
+l.39 \subsubsection
+                 {N-QUEEN}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \subsubsection{N
+                   -QUEEN}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--40
+[][]N-QUEEN 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \begin{figure}
+                 [b]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \begin{figure}[
+                  b]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.43 	\includegraphics
+                    [scale=1]{figures/10-queens-sol.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 	\caption
+            {Lời giải của bài toán 10 con hậu.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 41--46
+[][][b]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 B
+    ài toán sắp xếp $N ( N > 4)$ quân hậu yêu cầu sắp xếp $N...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--48
+[][]Bài
+ []
+
+
+Overfull \hbox (32.69435pt too wide) in paragraph at lines 47--48
+\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N >
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 47--48
+\OT1/cmr/m/n/10 4)$
+ []
+
+
+Overfull \hbox (9.12497pt too wide) in paragraph at lines 47--48
+\OML/cmm/m/it/10 N$
+ []
+
+
+Overfull \hbox (6.13332pt too wide) in paragraph at lines 47--48
+\OT1/cmr/m/sc/10 ăn
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 M
+    ô hình toán học:
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
+[][]Mô
+ []
+
+
+Overfull \hbox (19.62494pt too wide) in paragraph at lines 51--52
+\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.37788pt too wide) in paragraph at lines 51--52
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 1 \OMS/
+cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 51--52
+\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (14.12498pt too wide) in paragraph at lines 51--52
+\OML/cmm/m/it/10 N\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (9.04456pt too wide) in paragraph at lines 51--52
+\OML/cmm/m/it/10 x[]$
+ []
+
+
+Overfull \hbox (3.44513pt too wide) in paragraph at lines 51--52
+\OML/cmm/m/it/10 i$\nullfont . 
+ []
+
+
+Overfull \hbox (19.11246pt too wide) in paragraph at lines 52--53
+\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (31.86748pt too wide) in paragraph at lines 52--53
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 d[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 1 \OMS/
+cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 52--53
+\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (29.8813pt too wide) in paragraph at lines 52--53
+\OML/cmm/m/it/10 N\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 d[] \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (60.79152pt too wide) in paragraph at lines 52--53
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm
+/m/it/10 ; [] ; N\OMS/cmsy/m/n/10 gg$
+ []
+
+
+Overfull \hbox (9.04456pt too wide) in paragraph at lines 52--53
+\OML/cmm/m/it/10 x[]$\nullfont . 
+ []
+
+
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 53--54
+\OML/cmm/m/it/10 C$\nullfont : 
+ []
+
+! Misplaced alignment tab character &.
+l.56 ...	x_i \neq x_j, 1 \leq i < j \leq N       	 &
+                                                   \quad \text{Không có ha...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.56 ...j, 1 \leq i < j \leq N       	 & \quad \text
+                                                  {Không có hai con hậu ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.57 ...x_i - i \neq x_j - j, 1 \leq i < j \leq N  &
+                                                   \quad \text{Ràng buộc ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.57 ... x_j - j, 1 \leq i < j \leq N  & \quad \text
+                                                  {Ràng buộc đường ch...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.58 ...x_i + i \neq x_j + j, 1 \leq i < j \leq N  &
+                                                   \quad \text{Ràng buộc ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.58 ... x_j + j, 1 \leq i < j \leq N  & \quad \text
+                                                  {Ràng buộc đường ch...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ô (U+00F4) in font cmmi10!
+Missing character: There is no ô (U+00F4) in font cmmi10!
+Missing character: There is no ó (U+00F3) in font cmmi10!
+Missing character: There is no ó (U+00F3) in font cmmi10!
+Missing character: There is no ậ (U+1EAD) in font cmmi10!
+Missing character: There is no ậ (U+1EAD) in font cmmi10!
+Missing character: There is no à (U+00E0) in font cmmi10!
+Missing character: There is no à (U+00E0) in font cmmi10!
+Missing character: There is no ê (U+00EA) in font cmmi10!
+Missing character: There is no ê (U+00EA) in font cmmi10!
+Missing character: There is no ù (U+00F9) in font cmmi10!
+Missing character: There is no ù (U+00F9) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no à (U+00E0) in font cmmi10!
+Missing character: There is no à (U+00E0) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no đ (U+0111) in font cmmi10!
+Missing character: There is no đ (U+0111) in font cmmi10!
+Missing character: There is no ư (U+01B0) in font cmmi10!
+Missing character: There is no ư (U+01B0) in font cmmi10!
+Missing character: There is no ờ (U+1EDD) in font cmmi10!
+Missing character: There is no ờ (U+1EDD) in font cmmi10!
+Missing character: There is no é (U+00E9) in font cmmi10!
+Missing character: There is no é (U+00E9) in font cmmi10!
+Missing character: There is no ậ (U+1EAD) in font cmmi10!
+Missing character: There is no ậ (U+1EAD) in font cmmi10!
+Missing character: There is no à (U+00E0) in font cmmi10!
+Missing character: There is no à (U+00E0) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no ộ (U+1ED9) in font cmmi10!
+Missing character: There is no đ (U+0111) in font cmmi10!
+Missing character: There is no đ (U+0111) in font cmmi10!
+Missing character: There is no ư (U+01B0) in font cmmi10!
+Missing character: There is no ư (U+01B0) in font cmmi10!
+Missing character: There is no ờ (U+1EDD) in font cmmi10!
+Missing character: There is no ờ (U+1EDD) in font cmmi10!
+Missing character: There is no é (U+00E9) in font cmmi10!
+Missing character: There is no é (U+00E9) in font cmmi10!
+Missing character: There is no ư (U+01B0) in font cmmi10!
+Missing character: There is no ư (U+01B0) in font cmmi10!
+Missing character: There is no ợ (U+1EE3) in font cmmi10!
+Missing character: There is no ợ (U+1EE3) in font cmmi10!
+
+Overfull \hbox (659.97433pt too wide) detected at line 60
+\OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = [][] \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = \
+OML/cmm/m/it/10 x[]; \OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 i < 
+j \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 N [][] x[] \OMS/cmsy/m/n/10   \OML/cmm/m/
+it/10 i \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/
+10   \OML/cmm/m/it/10 j; \OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 
+i < j \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 N [][] x[] \OT1/cmr/m/n/10 + \OML/cmm
+/m/it/10 i \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[] \OT1/cmr/m/
+n/10 + \OML/cmm/m/it/10 j; \OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10  \OML/cmm/m/it/1
+0 i < j \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 N [][] 
+ []
+
+! Undefined control sequence.
+<write> ...rning: Reference `fig:queens' on page \thepage 
+                                                  \space undefined\on@line .
+l.63 \ref{fig:queens}
+                    là một phương án thỏa mãn ràng buộc của b�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:queens' on page  undefined on input line 63.
+
+! Undefined control sequence.
+l.64 \subsubsection
+                 {Graph-Coloring}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (30.86105pt too wide) in paragraph at lines 63--65
+[][][]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \begin{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.68 	\includegraphics
+                    [scale=1]{figures/graph-sol.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 	\caption
+            {Lời giải của bài toán tô màu đồ thị}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \end{figure}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 68--71
+[][][scale=1]figures/graph-sol.png
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 72--73
+[][]Bài
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 74--75
+[][]Mô
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 76--77
+[][]Đồ
+ []
+
+
+Overfull \hbox (48.08464pt too wide) in paragraph at lines 76--77
+\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 V; E\OT1/cmr/m/n/10 )\OML/c
+mm/m/it/10 ; K$
+ []
+
+
+Overfull \hbox (19.62494pt too wide) in paragraph at lines 78--79
+\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (34.94734pt too wide) in paragraph at lines 78--79
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 X[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 1 \OMS/
+cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 78--79
+\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (18.61115pt too wide) in paragraph at lines 78--79
+\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 V\OMS/cmsy/m/n/10 jg$
+ []
+
+
+Overfull \hbox (19.11246pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (34.94177pt too wide) in paragraph at lines 79--80
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 D[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 1 \OMS/
+cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (18.61115pt too wide) in paragraph at lines 79--80
+\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 V\OMS/cmsy/m/n/10 jg$
+ []
+
+
+Overfull \hbox (11.61401pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 X[]$\nullfont ,
+ []
+
+
+Overfull \hbox (22.16396pt too wide) in paragraph at lines 79--80
+\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (46.43044pt too wide) in paragraph at lines 79--80
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; K\OMS/cmsy/m/n/10 g$
+ 
+ []
+
+
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 80--82
+\OML/cmm/m/it/10 C$\nullfont :
+ []
+
+
+Overfull \hbox (22.16953pt too wide) in paragraph at lines 80--82
+\OML/cmm/m/it/10 X[] \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.49829pt too wide) in paragraph at lines 80--82
+\OML/cmm/m/it/10 X[]$
+ []
+
+
+Overfull \hbox (19.65623pt too wide) in paragraph at lines 80--82
+\OMS/cmsy/m/n/10 9$\OML/cmm/m/it/10 e \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (27.6145pt too wide) in paragraph at lines 80--82
+\OML/cmm/m/it/10 E; e \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (31.43172pt too wide) in paragraph at lines 80--82
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 V[]; V[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (34.4319pt too wide) in paragraph at lines 82--84
+\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 V; E\OT1/cmr/m/n/10 )$ 
+ []
+
+! Undefined control sequence.
+<write> ...ng: Reference `fig:graph-sol' on page \thepage 
+                                                  \space undefined\on@line .
+l.86 \ref{fig:graph-sol}
+                       là một lời giải cho bài toán tô màu đồ ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:graph-sol' on page  undefined on input line 86.
+
+
+Overfull \hbox (30.86105pt too wide) in paragraph at lines 86--87
+[][][]
+ []
+
+! Undefined control sequence.
+l.89 \subsection
+              {Một số kỹ thuật giải bài toán tối ưu tổ hợp}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.90 \subsubsection
+                 {Quy hoạch ràng buộc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 89--92
+[][]Một
+ []
+
+! Undefined control sequence.
+l.94 \section
+           {Tìm kiếm cục bộ dựa trên ràng buộc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 94--96
+[][]Tìm
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 97--98
+[][]Tiếp
+ []
+
+
+Overfull \hbox (19.05545pt too wide) in paragraph at lines 99--100
+\OT1/cmr/bx/n/10 Láng
+ []
+
+
+Overfull \hbox (21.08322pt too wide) in paragraph at lines 99--100
+\OT1/cmr/bx/n/10 giềng
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 99--100
+\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (71.6307pt too wide) in paragraph at lines 99--100
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 S[]; S[]; [] ; S[]\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 99--100
+\OML/cmm/m/it/10 S$
+ []
+
+
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 99--100
+\OML/cmm/m/it/10 S$\nullfont . 
+ []
+
+
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 100--101
+\OT1/cmr/bx/n/10 Cực
+ []
+
+
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 100--101
+\OT1/cmr/bx/n/10 tiểu
+ []
+
+
+Overfull \hbox (5.59023pt too wide) in paragraph at lines 100--101
+\OT1/cmr/bx/n/10 địa
+ []
+
+
+Overfull \hbox (24.91653pt too wide) in paragraph at lines 100--101
+\OT1/cmr/bx/n/10 phương
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 103--104
+[][]Với
+ []
+
+! Undefined control sequence.
+l.107 \section
+            {Thư viện JOpenCBLS}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 107--109
+[][]Thư
+ []
+
+
+Overfull \hbox (17.55557pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 thuật
+ []
+
+
+Overfull \hbox (13.7778pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 toán
+ []
+
+
+Overfull \hbox (4.61113pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 và
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 tối
+ []
+
+
+Overfull \hbox (5.16667pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 ưu
+ []
+
+
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 -
+ []
+
+
+Overfull \hbox (14.22224pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 Viện
+ []
+
+
+Overfull \hbox (16.55559pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 Công
+ []
+
+
+Overfull \hbox (15.33336pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 nghệ
+ []
+
+
+Overfull \hbox (18.94447pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 thông
+ []
+
+
+Overfull \hbox (11.16667pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 tin
+ []
+
+
+Overfull \hbox (21.97227pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 truyền
+ []
+
+
+Overfull \hbox (21.72226pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 thông,
+ []
+
+
+Overfull \hbox (2.38889pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 đại
+ []
+
+
+Overfull \hbox (9.61111pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 học
+ []
+
+
+Overfull \hbox (16.2778pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 Bách
+ []
+
+
+Overfull \hbox (21.91673pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 Khoa
+ []
+
+
+Overfull \hbox (7.08337pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 Hà
+ []
+
+
+Overfull \hbox (9.47226pt too wide) in paragraph at lines 107--109
+\OT1/cmss/m/n/10 Nội
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 110--111
+[][]Thư
+ []
+
+
+Overfull \hbox (11.55557pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 tìm
+ []
+
+
+Overfull \hbox (15.22226pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 kiếm
+ []
+
+
+Overfull \hbox (8.88889pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 cục
+ []
+
+
+Overfull \hbox (5.16667pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 bộ\nullfont .
+ []
+
+
+Overfull \hbox (46.72229pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 Constraint-
+ []
+
+
+Overfull \hbox (23.41669pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 based
+ []
+
+
+Overfull \hbox (13.75003pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 Lo-
+ []
+
+
+Overfull \hbox (11.6389pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 cal
+ []
+
+
+Overfull \hbox (27.5556pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 Search
+ []
+
+
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 -
+ []
+
+
+Overfull \hbox (24.02785pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 CBLS
+ []
+
+
+Overfull \hbox (16.36115pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 Van
+ []
+
+
+Overfull \hbox (20.02782pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 Hen-
+ []
+
+
+Overfull \hbox (16.55556pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 ten-
+ []
+
+
+Overfull \hbox (17.36118pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 ryck
+ []
+
+
+Overfull \hbox (7.58336pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 &
+ []
+
+
+Overfull \hbox (27.58337pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 Michel
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 110--111
+\OT1/cmss/m/n/10 2005\nullfont .
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 112--113
+[][]JOpenCBLS
+ []
+
+
+Overfull \hbox (35.24428pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/sc/10 heuris-
+ []
+
+
+Overfull \hbox (14.84435pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/sc/10 tic
+ []
+
+
+Overfull \hbox (24.42207pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/sc/10 meta
+ []
+
+
+Overfull \hbox (35.24428pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/sc/10 heuris-
+ []
+
+
+Overfull \hbox (14.84435pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/sc/10 tic
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 114--115
+[][]Cấu
+ []
+
+! Undefined control sequence.
+l.131 \subsection
+               {Các thành phần của JOpenCBLS}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--132
+[][]Các
+ []
+
+! Undefined control sequence.
+l.133 \subsubsection
+                  {Mô hình}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 133--135
+[][]Mô
+ []
+
+
+Overfull \hbox (17.7638pt too wide) in paragraph at lines 133--135
+\OT1/cmr/bx/n/10 Biến
+ []
+
+
+Overfull \hbox (29.56233pt too wide) in paragraph at lines 133--135
+\OT1/cmr/bx/n/10 (Vari-
+ []
+
+
+Overfull \hbox (24.91652pt too wide) in paragraph at lines 133--135
+\OT1/cmr/bx/n/10 able) 
+ []
+
+
+Overfull \hbox (35.22754pt too wide) in paragraph at lines 137--138
+\OT1/cmr/m/sc/10 VarInt
+ []
+
+
+Overfull \hbox (22.9054pt too wide) in paragraph at lines 137--138
+\OT1/cmr/m/sc/10 Var-
+ []
+
+
+Overfull \hbox (29.04419pt too wide) in paragraph at lines 137--138
+\OT1/cmr/m/sc/10 IntLS\nullfont ,
+ []
+
+
+Overfull \hbox (35.22754pt too wide) in paragraph at lines 137--138
+\OT1/cmr/m/sc/10 VarInt
+ []
+
+
+Overfull \hbox (22.9054pt too wide) in paragraph at lines 137--138
+\OT1/cmr/m/sc/10 Var-
+ []
+
+
+Overfull \hbox (29.04419pt too wide) in paragraph at lines 137--138
+\OT1/cmr/m/sc/10 IntLS
+ []
+
+
+Overfull \hbox (35.22754pt too wide) in paragraph at lines 137--138
+\OT1/cmr/m/sc/10 VarInt
+ []
+
+
+Overfull \hbox (32.65271pt too wide) in paragraph at lines 140--141
+[][]\OT1/cmr/bx/n/10 Bất
+ []
+
+
+Overfull \hbox (17.7638pt too wide) in paragraph at lines 140--141
+\OT1/cmr/bx/n/10 Biến
+ []
+
+
+Overfull \hbox (19.05545pt too wide) in paragraph at lines 140--141
+\OT1/cmr/bx/n/10 (In-
+ []
+
+
+Overfull \hbox (22.78459pt too wide) in paragraph at lines 140--141
+\OT1/cmr/bx/n/10 vari-
+ []
+
+
+Overfull \hbox (20.66791pt too wide) in paragraph at lines 140--141
+\OT1/cmr/bx/n/10 ants 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 \begin{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+! Undefined control sequence.
+<write> \newlabel{chap:combOpt}{{}{\thepage 
+                                    }}
+l.141 \begin{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{chap:combOpt}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{sec:co_space}{{}{\thepage 
+                                    }}
+l.141 \begin{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:co_space}{{}{}}
+{C:/Users/phuc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+! Undefined control sequence.
+<write> \newlabel{fig:queens}{{}{\thepage 
+                                  }}
+l.141 \begin{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{fig:queens}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{fig:graph-sol}{{}{\thepage 
+                                     }}
+l.141 \begin{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{fig:graph-sol}{{}{}}
+]
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 143--144
+\OT1/cmr/m/it/10 in-
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 143--144
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (16.86653pt too wide) in paragraph at lines 143--144
+\OT1/cmr/m/it/10 face\nullfont ,
+ []
+
+
+Overfull \hbox (38.58324pt too wide) in paragraph at lines 146--147
+[][]\OT1/cmr/bx/n/10 Hàm
+ []
+
+
+Overfull \hbox (32.47205pt too wide) in paragraph at lines 146--147
+\OT1/cmr/bx/n/10 (Func-
+ []
+
+
+Overfull \hbox (28.81372pt too wide) in paragraph at lines 146--147
+\OT1/cmr/bx/n/10 tions) 
+ []
+
+
+Overfull \hbox (40.76378pt too wide) in paragraph at lines 151--152
+[][]\OT1/cmr/bx/n/10 Ràng
+ []
+
+
+Overfull \hbox (17.8888pt too wide) in paragraph at lines 151--152
+\OT1/cmr/bx/n/10 buộc
+ []
+
+
+Overfull \hbox (28.74985pt too wide) in paragraph at lines 151--152
+\OT1/cmr/bx/n/10 (Con-
+ []
+
+
+Overfull \hbox (37.6067pt too wide) in paragraph at lines 151--152
+\OT1/cmr/bx/n/10 straints 
+ []
+
+! Undefined control sequence.
+l.156 \subsubsection
+                  {Tìm kiếm (Search)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 156--158
+[][]Tìm
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 162--163
+[][]JOpenCBLS
+ []
+
+! Undefined control sequence.
+l.167 \subsubsection
+                  {Ví dụ minh họa}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 167--169
+[][]Ví
+ []
+
+
+Overfull \hbox (10.91661pt too wide) in paragraph at lines 170--171
+\OT1/cmr/bx/n/10 Mô
+ []
+
+
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 170--171
+\OT1/cmr/bx/n/10 hình
+ []
+
+
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 170--171
+\OT1/cmr/bx/n/10 bài
+ []
+
+
+Overfull \hbox (16.61102pt too wide) in paragraph at lines 170--171
+\OT1/cmr/bx/n/10 toán
+ []
+
+
+Overfull \hbox (19.4999pt too wide) in paragraph at lines 171--172
+\OT1/cmr/bx/n/10 Thực
+ []
+
+
+Overfull \hbox (15.97214pt too wide) in paragraph at lines 171--172
+\OT1/cmr/bx/n/10 hiện
+ []
+
+
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 171--172
+\OT1/cmr/bx/n/10 tìm
+ []
+
+
+Overfull \hbox (18.84712pt too wide) in paragraph at lines 171--172
+\OT1/cmr/bx/n/10 kiếm
+ []
+
+! Undefined control sequence.
+l.175 \section
+            {Kết luận}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 175--177
+[][]Kết
+ []
+
+)
+! Emergency stop.
+<*> Chapter1.tex
+             
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 41 strings out of 494074
+ 100000,552014 words of node,token memory allocated 11368 words of node memory still in use:
+    nodes
+   avail lists: 2:11,3:180,4:1744,5:88,6:3410,7:185,9:321,10:126
+ 3804 multiletter control sequences out of 65536+200000
+ 29 fonts using 1151863 bytes
+ 18i,6n,14p,1149b,129s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,21 @@
+\chapter*{Tóm Tắt Nội Dung Đồ Án Tốt Nghiệp}
+%\addcontentsline{toc}{chapter}{\numberline{}Mở đầu}
+\addcontentsline{toc}{chapter}{Mở đầu}
+\markboth{Mở đầu}{}
+Bài toán tối ưu tổ hợp là bài toán rất phổ biến trong đời sống xã hội, đặc biệt trong các lĩnh vực như phân công, quản lý, lập kế hoạch. Mục tiêu của các bài toán này là tìm một lời giải thỏa mãn một tập các ràng buộc được đặt ra và đồng thời có thể tối ưu một số mục tiêu nào đó. Thông thường các bài toán này đều thuộc lớp các bài toán NP-Khó, các phương pháp giải bài toán tối ưu tổ hợp được chia làm hai hướng: hướng tiếp cận đúng và hướng tiếp cận gần đúng.
+
+Trong các hướng tiếp cận thì hướng tiếp cận gần đúng sẽ là khả thi hơn khi khối lượng tính toán trong các bài toán tối ưu này vượt xa khả năng tính toán của các máy tính hiện tại (2015) nếu theo hướng tiếp cận đúng. Phương pháp tìm kiếm cục bộ dựa trên ràng buộc là một phương pháp theo hướng tiếp cận gần đúng có thể sử dụng trong các bài toán tối ưu này.
+
+Lớp các bài toán đóng thùng (Bin Packing) \cite{hopper2000twodimensional, lodi1999heuristic, ortmann2010newimpro, prisinger2005thetwod} là các bài toán liên quan đến việc xếp các vật phẩm với kích thước cho trước vào một số các thùng (Bin) thỏa mãn các ràng buộc không chồng lấn về mặt không gian và thực hiện tối ưu một số mục tiêu nào đó.
+
+Đồ án này nghiên cứu tìm kiếm lời giải cho bài toán đóng thùng 2D với phương pháp tìm kiếm cục bộ dựa trên ràng buộc \cite{rossi2006handbookOfCp, pascal2005cp} sử dụng bộ thư viện JOpenCBLS \cite{dungpq2015cbls}.
+
+Nội dung đồ án bao gồm:
+
+\textbf{Chương \ref{chap:combOpt}} Giới thiệu về bài toán tối ưu hóa tổ hợp trong khoa học máy tính, các phương pháp tiếp cận, ưu nhược điểm và các kết quả thực tiễn. Phương pháp tìm kiếm cục bộ dựa trên ràng buộc, các kết quả và công việc còn phải thực hiện và giới thiệu về thư viện JOpenCBLS.
+
+\textbf{Chương \ref{chap:binPacking}} giới thiệu về bài toán Bin Packing 2D: mô tả, mô hình toán học, ứng dụng của trong thực tiễn.
+
+\textbf{Chương \ref{chap:implement}} phân tích, cài đặt cách thức thực hiện tìm kiếm cục bộ trên bài toán đóng thùng và áp dụng thư viện JOpenCBLS vào để giải bài toán đóng thùng 2D.
+
+\textbf{Chương \ref{chap:presentation}} minh họa chương trình đã được cài đặt với thư viện JOpenCBLS với giao diện tương tác người dùng sử dụng công nghệ J2EE, Javascript, Bootstrap. Mục này bao gồm các kết quả thống kê trên các bộ dữ liệu kiểm tra có sẵn, kết quả trên các bộ này cho thấy chương trình cho khả năng giải tốt các bài này.

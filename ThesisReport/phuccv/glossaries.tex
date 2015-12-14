@@ -1,0 +1,121 @@
+\newglossaryentry{GPU}
+{
+    name=GPU,
+    description={Graphic Processing Unit - Đơn vị xử lý đồ họa}
+}
+
+\newglossaryentry{pipeline}
+{
+    name=pipeline,
+    description={hay \texttt{graphic pipeline} - đường ống đồ họa: một dãy các bước kế tiếp nhau trong quá trình xử lý đồ họa}
+}
+
+\newglossaryentry{shader}
+{
+    name=shader,
+    description={Chương trình được GPU sử dụng cho một số bước trong pipeline}
+}
+
+\newglossaryentry{GPGPU}
+{
+    name=GPGPU,
+    description={General-purpose computing on Graphics Processing Units - Tính
+    toán mục đích thông dụng trên GPU}
+}
+
+\newglossaryentry{CUDA}
+{
+    name=CUDA,
+    description={Compute Unified Device Architecture - một môi trường dành cho lập trình
+    GPGPU trên các GPU của NVIDIA}
+}
+
+\newglossaryentry{kernel}
+{
+    name=Kernel,
+    description={Chương trình C/C++ được gọi từ CPU để chạy trên mỗi thread của GPU}
+}
+
+\newglossaryentry{thread}
+{
+    name=thread,
+    description={Luồng, hay luồng thực thi. Là một dãy các câu lệnh được thực
+    thi một cách tuần tự trên CPU hoặc GPU}
+}
+
+\newglossaryentry{SM}
+{
+    name=SM,
+    description={Stream Multiprocessor - Bộ đa xử lý dòng}
+}
+
+\newglossaryentry{SMX}
+{
+    name=SMX,
+    description={Giống SM, nhưng dành cho GPU kiến trúc Kepler}
+}
+
+\newglossaryentry{block}
+{
+    name=block,
+    description={Cũng gọi là thread block. Là một nhóm các thread của CUDA được
+    thực thi trên cùng một SM}
+}
+
+\newglossaryentry{compute capability}
+{
+    name=compute capability,
+    description={Khả năng tính toán. Một con số chỉ phiên bản, chức năng của
+    một SM}
+}
+
+\newglossaryentry{Core}
+{
+    name=Core,
+    description={Nhân CUDA, đơn vị cơ bản trực tiếp tính các phép tính số học,
+    logic, dấu phẩy động trên GPU}
+}
+
+\newglossaryentry{warp}
+{
+    name=warp,
+    description={Nhóm 32 thread CUDA liên tiếp trong cùng một block. Được điều
+    phối công việc cùng nhau.}
+}
+
+\newglossaryentry{SIMT}
+{
+    name=SIMT,
+    description={Single Instruction, Multiple Thread}
+}
+
+\newglossaryentry{SIMD}
+{
+    name=SIMD,
+    description={Single Instruction, Multiple Data}
+}
+
+\newglossaryentry{HDF}
+{
+    name=HDF,
+    description={Hydrodynamic Flow - Dòng chảy thủy động lực học}
+}
+
+\newglossaryentry{MAC}
+{
+    name=MAC,
+    description={Marker-and-Cell, một phương pháp giải bài toàn HDF}
+}
+
+\newglossaryentry{CFD}
+{
+    name=CFD,
+    description={Computational Fluid Dynamic - Tính toán động lực học chất lưu}
+}
+
+\newglossaryentry{occupancy}
+{
+    name=occupancy,
+    description={Mức độ chiếm giữ - tỉ lê giữa số thread thực tế và tối đa có
+    thể chạy trên 1 SM}
+}
